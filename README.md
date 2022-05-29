@@ -20,8 +20,8 @@
  <td align="center"><a href="https://github.com/kunna67"><img alt="" src="https://avatars.githubusercontent.com/kunna67" width="130px;"><br><sub><b>
  Kunnal Bansal</b></sub></a><br></td></a></td>
 
-  <td align="center"><a href="https://github.com/"><img alt="" src="https://avatars.githubusercontent.com/" width="130px;"><br><sub><b>
-   Promit Mujjemdar</b></sub></a><br></td></a></td>
+  <td align="center"><a href="https://github.com/007Ishan"><img alt="" src="https://avatars.githubusercontent.com/007Ishan" width="130px;"><br><sub><b>
+   Promit Majumder</b></sub></a><br></td></a></td>
 
 
   </tr>
