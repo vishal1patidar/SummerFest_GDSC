@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "gdscsummerfest",
+			"path": ".."
+		},
+		{
+			"name": "images",
+			"path": "..\\..\\..\\..\\Desktop\\summerfest GDSC\\images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "gdscsummerfest"
+	}
+}

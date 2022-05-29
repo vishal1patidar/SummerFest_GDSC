@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vit Food Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    
+
+
+
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <span>
+                Vit Food Hub
+            </span>
+        </a>
+        <nav class="navbar">
+            <a href="#Home">Home</a>
+            <a class="nav-link dropdown-toggle" href="#"id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Order Station
+              </a>
+              <a href="#dishes">Dishes</a>
+              <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="html/ubplace.html">Under Belly (UB)</a></li>
+                <li><a class="dropdown-item" href="html/nightcanteenplace.html">Night Canteen</a></li>
+                
+              </ul>
+              <a  href="html/menu.html" >
+                Menu
+              </a>
+              
+            <a href="html/about.html">About</a>
+          
+            <a href="html/contact.html">Contact</a>
+
+            <div  class="icons">
+                <i class="fas fa-search" id="search-icon"></i>
+          </div>
+            
+        </nav>
+
+        <div id="menu-bars" class="fas fa-bars">
+
+        </div>
+
+        
+
+
+    </header>
+    
+
+    <form action="" id="search">
+        <input type="search" name="" id="search-box" placeholder="Search Food Here.">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close">*</i>
+    </form>
+
+    <section class="home" id="home">
+
+        <div class="home-slider swiper mySwiper ">
+            <div class="wrapper swiper-wrapper">
+                <div class="slide swiper-slide">
+                    <div class="content">
+                        <span>Our Speciality</span>
+                        <h3> Chicken Noodles</h3>
+                        <a href="#" class="btn">Order Now..</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="slide swiper-slide">
+                    <div class="content">
+                        <span>Our Speciality</span>
+                        <h3>Tandoori Chicken</h3>
+                        <a href="#" class="btn">Order Now..</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-2.png" alt="">
+                    </div>
+                </div>
+
+                <div class="slide swiper-slide">
+                    <div class="content">
+                        <span>Our Speciality</span>
+                        <h3>Pizza</h3>
+                        <a href="#" class="btn">Order Now..</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-3.png" alt="">
+                    </div>
+                </div>
+                
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+
+    </section>
+    <section class="Home" id="Home">
+    
+        <div class="content">
+            <h3>Order!! the best Fast Food <span>within seconds</span></h3>
+    
+        </div>
+    
+    
+    
+    </section>
+    <hr>
+
+    <section class="dishes" id="dishes">
+       
+        <h1 class="sub-heading">Popular Dishes</h1>
+        <div class="box-container">
+            <div class="box">
+                
+                <img src="images/dish-4.png" alt="">
+                <span>Rs 100/-</span>
+                <a href="#" class="btn">Add to Cart..</a>
+            </div>
+            <div class="box">
+                
+                <img src="images/dish-2.png" alt="">
+                <span>Rs 100/-</span>
+                <a href="#" class="btn">Add to Cart..</a>
+            </div>
+            <div class="box">
+                
+                <img src="images/dish-3.png" alt="">
+                <span>Rs 100/-</span>
+                <a href="#" class="btn">Add to Cart..</a>
+            </div>
+            <div class="box">
+                
+                <img src="images/dish-6.png" alt="">
+                <span>Rs 100/-</span>
+                <a href="#" class="btn">Add to Cart..</a>
+            </div>
+            <div class="box">
+                
+                <img src="images/dish-1.png" alt="">
+                <span>Rs 100/-</span>
+                <a href="#" class="btn">Add to Cart..</a>
+            </div>
+            <div class="box">
+                
+                <img src="images/dish-5.png" alt="">
+                <span>Rs 100/-</span>
+                <a href="#" class="btn">Add to Cart..</a>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <section class="about" id="about">
+        <h1 class="sub-heading">About Us</h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/about-img.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>Fast-food in college</h3>
+                 <div class="icons-container">
+                     <div class="icons">
+                         <i class="fas fa-shipping-fast"></i>
+                         <span>Free Delivery</span>
+                     </div>
+                     <div class="icons">
+                        <i class="fas fa-rupees-sign"></i>
+                        <span>Cash on Delivery</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>12pm - 6pm services </span>
+                    </div>
+                 </div>
+                 <a href="#" class="btn">Exlpore..</a>
+            </div>
+        </div>
+
+    </section>
+<hr>
+    <sectiom class="menu" id="menu">
+        <h1 class="sub-heading">Menu</h1>
+
+        <div class="box-container">
+            
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Not so healthy, but definitely delicious food.</h3>
+                    <a href="#" class="btn">Add to Cart..</a>
+                    <span class="price">100/-</span>
+                </div>
+            </div> 
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Not so healthy, but definitely delicious food.</h3>
+                    <a href="#" class="btn">Add to Cart..</a>
+                    <span class="price">100/-</span>
+                </div>
+            </div> 
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Not so healthy, but definitely delicious food.</h3>
+                    <a href="#" class="btn">Add to Cart..</a>
+                    <span class="price">100/-</span>
+                </div>
+            </div> 
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Not so healthy, but definitely delicious food.</h3>
+                    <a href="#" class="btn">Add to Cart..</a>
+                    <span class="price">100/-span>
+                </div>
+            </div> 
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Not so healthy, but definitely delicious food.</h3>
+                    <a href="#" class="btn">Add to Cart..</a>
+                    <span class="price">100/-</span>
+                </div>
+            </div> 
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Not so healthy, but definitely delicious food.</h3>
+                    <a href="#" class="btn">Add to Cart..</a>
+                    <span class="price">100/- </span>
+                </div>
+            </div> 
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Not so healthy, but definitely delicious food.</h3>
+                    <a href="#" class="btn">Add to Cart..</a>
+                    <span class="price">100/- </span>
+                </div>
+            </div> 
+            
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-9.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Not so healthy, but definitely delicious food.</h3>
+                    <a href="#" class="btn">Add to Cart..</a>
+                    <span class="price">100/-</span>
+                </div>
+            </div> 
+            
+            
+        </div>
+
+
+    </section>
+    <hr>
+
+    <section class="order" id="order">
+        <h1 class="sub-heading">Order Now</h1>
+         <form action="">
+
+             <div class="inputBox">
+                 <div class="input">
+                     <span>Name</span>
+                     <input type="text" placeholder="Enter your name">
+                 </div>
+                 <div class="input">
+                     <span>Number</span>
+                     <input type="number" placeholder="enter your number">
+                 </div>
+             </div>
+
+             <div class="inputBox">
+                <div class="input">
+                    <span>Your Order</span>
+                    <input type="text" placeholder="Enter your name">
+                </div>
+                <div class="input">
+                    <span>Quick addings</span>
+                    <input type="number" placeholder="additional food">
+                </div>
+             </div>
+
+             <div class="inputBox">
+                <div class="input">
+                    <span>Quantity</span>
+                    <input type="number" placeholder="how many orders">
+                </div>
+                <div class="input">
+                    <span>Time</span>
+                    <input type="datetime-local" placeholder="additional food">
+                </div>
+             </div>
+
+             <div class="inputBox">
+                <div class="input">
+                    <span>Hostel No. and Room-no.</span>
+                    <textarea name="" placeholder="enter your place" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input">
+                    <span>Any special request</span>
+                    <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+                </div>
+             </div>
+
+             <input type="submit" value="order now" class="btn">
+              
+         </form>
+        
+    </section>
+
+    <footer class="footer">
+        <div class="box-container">
+            <div class="box">
+               <h3>Locations</h3>
+               <a href="#">Under Belly (UB)</a>
+               <a href="#">Night Canteen (NC)</a>
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#">Home</a>
+                <a href="#">Dishes</a>
+                <a href="#">About</a>
+                <a href="#">Menu</a>
+                <a href="#">Order</a>
+            </div>
+
+            <div class="box">
+                <h3>Contact Us</h3>
+                <a href="#">UB-987654210</a>
+                <a href="#">NG-9876543210</a>
+                <a href="#">priyanshud070702@gmail.com</a>
+                <a href="#">KothriKalan, Bhopal</a>
+            </div>
+
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">Facebook</a>
+            </div>
+        </div>
+        <div class="credit">copyright @ 2022 by <span>ViTroids </span></div>
+    </footer>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="index.js">
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/ec054dcd02.js" crossorigin="anonymous"></script>
+</body>
+</html>
